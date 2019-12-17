@@ -1,0 +1,102 @@
+/*colors and fonts*/
+body {
+	background-color: #fff4e4;
+	color: black;
+	font-size: 16px;
+	font-family: 'Solway',serif;
+	font-weight: lighter;
+}	
+h1 {
+
+	color: black; 
+	font-family: Gill san;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	box-shadow:0px 10px 30px rgb(0,0,0,0.3);
+}
+
+h2{
+	color: lightcoral; 
+	text-align: justify;
+	font-size: 28px;
+	font-family: : URW chancery L, cursive;
+	text-decoration: underline;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: lightsalmon;
+	font-size: 45px;
+}
+a:hover {
+	color: skyblue;
+}
+
+p{
+	font-size: 22px;
+}
+
+
+#moi{
+	width: 150px;
+	border-radius: 20px;
+}
+
+#logo{
+	width: 420px;
+	border-radius : 50px;
+}
+
+#pole{
+	width: 420px;
+	height: 250px;
+	border-radius : 50px;
+}
+
+#Inde{
+	height: 420px;
+	border-radius : 50px;
+}
+
+#Cambodge{
+	height: 450px;
+	border-radius : 50px;
+}
+
+/*custom design with class */
+.container{
+	width: 700px;
+	margin: 480px auto;
+}
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white{
+	background:thistle;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0,2);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+	.voyages{
+	text-align: left;
+	font-size: 22px;
+}
+
+.listinline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+	
+
+
